@@ -68,7 +68,7 @@ namespace RazorAppAssignment.Pages.Employees
 
             try
             {
-                string connString = "Data Source=G1-1MS2MQ3-L;Initial Catalog=empentry;Integrated Security=True";
+                string connString = "<Enter your connection string here>";
                 using (SqlConnection connection = new SqlConnection(connString))
                 {
                     connection.Open();
